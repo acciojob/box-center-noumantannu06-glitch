@@ -8,6 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            position: relative;
+        }
+
+        .center-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+
+        .center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: purple;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-box">
+        <span class="center-text">This is center.</span>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
